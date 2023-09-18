@@ -48,6 +48,7 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 keymap.set("n", "<leader>tn", "<cmd>ToggleTerm<cr>")
 keymap.set("n", "<leader>tt", "<cmd>ToggleTermToggleAll<cr>")
 
+-- terminal integration
 function _G.set_terminal_keymaps()
 	local opts = { buffer = 0 }
 	vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
@@ -60,3 +61,6 @@ function _G.set_terminal_keymaps()
 end
 
 vim.cmd("autocmd! TermOpen term://*toggleterm#* lua set_terminal_keymaps()")
+
+-- TS organize imports
+keymap.set("n", "<leader>oi", "<cmd>OrganizeImports<cr>")
