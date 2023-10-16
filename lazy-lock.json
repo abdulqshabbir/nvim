@@ -59,6 +59,10 @@
     "branch": "master",
     "commit": "21f4c47c6803d64ddb934a5b314dcb1b8e7365dc"
   },
+  "indent-blankline.nvim": {
+    "branch": "master",
+    "commit": "0ac5dfe835ec0f201ef6af17d4737d43b4bfce0d"
+  },
   "lazy.nvim": {
     "branch": "main",
     "commit": "6a2c47e6424a3f1e373bfeb714b716f6be13501c"
