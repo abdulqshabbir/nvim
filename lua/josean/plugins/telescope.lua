@@ -29,14 +29,21 @@ return {
 		-- set keymaps
 		local keymap = vim.keymap -- for conciseness
 
+		-- telescope
 		keymap.set("n", "<leader>p", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
 		keymap.set("n", "<leader>fo", "<cmd>Telescope oldfiles<cr>", { desc = "Fuzzy find recent files" })
 		keymap.set("n", "<leader>ff", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
 		keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
 		keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
-		keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+		keymap.set("n", "<leader>ft", "<cmd>Telescope help_tags<cr>") -- list available help tags
 		keymap.set("n", "<leader>fr", "<cmd>Telescope lsp_references<cr>") -- find all references of variable
 		keymap.set("n", "<leader>fi", "<cmd>Telescope lsp_implementations<CR>") -- find all implementations
+		keymap.set("n", "<leader>fh", "<cmd>Telescope find_files hidden=true<cr>")
+		keymap.set("n", "<leader>fd", "<cmd>Telescope diagnostics bufnr=0<cr>") -- show diagnostics for current buffer
+		keymap.set("n", "<leader>fD", "<cmd>Telescope diagnostics<cr>") -- show diagnostics for all buffers
+		keymap.set("n", "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<cr>") -- fuzzy find in current buffer
+
+		-- git telescope
 		keymap.set("n", "<leader>gb", "<cmd>Telescope git_branches<CR>") -- search for git branches
 		keymap.set("n", "<leader>gc", "<cmd>Telescope git_commits<CR>") -- search for git commits
 		keymap.set("n", "<leader>gs", "<cmd>Telescope git_stash<CR>") -- search for git stashes
