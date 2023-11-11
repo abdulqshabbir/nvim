@@ -7,7 +7,7 @@ return {
 			-- load the colorscheme here
 			local catppuccin = require("catppuccin")
 			catppuccin.setup({
-				flavour = "macchiato", -- latte, frappe, macchiato, mocha
+				flavour = "mocha", -- latte, frappe, macchiato, mocha
 				transparent_background = false, -- disables setting the background color.
 				show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
 				term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
@@ -45,7 +45,7 @@ return {
 					-- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
 				},
 			})
-			vim.cmd([[colorscheme catppuccin-macchiato]])
+			vim.cmd([[colorscheme catppuccin-mocha]])
 		end,
 	},
 }
