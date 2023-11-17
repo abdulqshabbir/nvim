@@ -63,3 +63,6 @@ vim.cmd("autocmd! TermOpen term://*toggleterm#* lua set_terminal_keymaps()")
 
 -- TS organize imports
 keymap.set("n", "<leader>oi", "<cmd>OrganizeImports<cr>")
+
+-- barbeque
+keymap.set("n", "<leader>l", "<cmd>Barbecue toggle<CR>") -- toggle split window maximization

@@ -15,6 +15,10 @@
     "branch": "main",
     "commit": "3eb26b949e1b90798e84926848551046e2eb0721"
   },
+  "barbecue": {
+    "branch": "main",
+    "commit": "cd7e7da622d68136e13721865b4d919efd6325ed"
+  },
   "bufferline.nvim": {
     "branch": "main",
     "commit": "6ecd37e0fa8b156099daedd2191130e083fb1490"
@@ -111,6 +115,10 @@
     "branch": "master",
     "commit": "50fcf96ec5a6e7bfdcbbea4f905c33e85408f170"
   },
+  "nvim-navic": {
+    "branch": "master",
+    "commit": "0ffa7ffe6588f3417e680439872f5049e38a24db"
+  },
   "nvim-surround": {
     "branch": "main",
     "commit": "0d6882635817a2677749a330127d12ac30a4f3c8"
@@ -166,6 +174,10 @@
   "vim-maximizer": {
     "branch": "master",
     "commit": "2e54952fe91e140a2e69f35f22131219fcd9c5f1"
+  },
+  "vim-snippets": {
+    "branch": "master",
+    "commit": "b039190177d97a968d80518470910aae7faf182a"
   },
   "vim-tmux-navigator": {
     "branch": "master",
