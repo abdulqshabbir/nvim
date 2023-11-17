@@ -12,6 +12,14 @@ return {
 
 		telescope.setup({
 			defaults = {
+				layout_strategy = "vertical",
+				layout_config = {
+					vertical = {
+						width = 0.9,
+						height = 0.9,
+						preview_height = 0.5,
+					},
+				},
 				ignore_patterns = { "node_modules", ".git", "yarn.lock", "package-lock.json" },
 				path_display = { "truncate " },
 				mappings = {

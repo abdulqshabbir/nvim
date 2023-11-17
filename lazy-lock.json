@@ -71,6 +71,10 @@
     "branch": "main",
     "commit": "6a2c47e6424a3f1e373bfeb714b716f6be13501c"
   },
+  "leap.nvim": {
+    "branch": "main",
+    "commit": "b6ae80f8fc9993638608fc1a51c6ab0eeb12618c"
+  },
   "lspkind.nvim": {
     "branch": "master",
     "commit": "57610d5ab560c073c465d6faf0c19f200cb67e6e"
@@ -157,7 +161,7 @@
   },
   "telescope.nvim": {
     "branch": "0.1.x",
-    "commit": "54930e1abfc94409e1bb9266e752ef8379008592"
+    "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a"
   },
   "toggleterm.nvim": {
     "branch": "main",
