@@ -42,10 +42,17 @@ keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>") -- toggle split window maxim
 keymap.set("n", "<leader>tn", "<cmd>ToggleTerm<cr>")
 keymap.set("n", "<leader>tt", "<cmd>ToggleTermToggleAll<cr>")
 
+-- Git Keymaps
 keymap.set("n", "<leader>gtb", "<cmd>Gitsigns blame_line<cr>")
 keymap.set("n", "<leader>gsh", "<cmd>Gitsigns stage_hunk<cr>")
 keymap.set("n", "<leader>gph", "<cmd>Gitsigns preview_hunk<cr>")
 keymap.set("n", "<leader>gwd", "<cmd>Gitsigns toggle_word_diff<cr>")
+
+-- Telescope import
+keymap.set("n", "<leader>fi", "<cmd>Telescope import<cr>")
+
+-- Javascript interpreter
+keymap.set("n", "<leader>repl", "<cmd>CodiNew javascript<cr>")
 
 -- terminal integration
 function _G.set_terminal_keymaps()

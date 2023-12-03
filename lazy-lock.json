@@ -43,6 +43,10 @@
     "branch": "master",
     "commit": "18095520391186d634a0045dacaa346291096566"
   },
+  "codi.vim": {
+    "branch": "master",
+    "commit": "83b9859aaf8066d95892e01eb9c01571a4b325dd"
+  },
   "copilot.vim": {
     "branch": "release",
     "commit": "998cf5ab1b85e844c7e8edb864a997e590df7182"
@@ -94,6 +98,10 @@
   "mason.nvim": {
     "branch": "main",
     "commit": "d66c60e17dd6fd8165194b1d14d21f7eb2c1697a"
+  },
+  "nui.nvim": {
+    "branch": "main",
+    "commit": "1d044afde83e73c56de8e176615a4a6e7c8cf0e3"
   },
   "null-ls.nvim": {
     "branch": "main",
@@ -159,6 +167,10 @@
     "branch": "main",
     "commit": "6c921ca12321edaa773e324ef64ea301a1d0da62"
   },
+  "telescope-import.nvim": {
+    "branch": "main",
+    "commit": "0270f1438c0ac91663146a73a213bfdc536a8cb5"
+  },
   "telescope.nvim": {
     "branch": "0.1.x",
     "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a"
@@ -186,5 +198,9 @@
   "vim-tmux-navigator": {
     "branch": "master",
     "commit": "7db70e08ea03b3e4d91f63713d76134512e28d7e"
+  },
+  "wtf.nvim": {
+    "branch": "main",
+    "commit": "03775272c9ba88cbaae1d1802078a3f751969350"
   }
 }
