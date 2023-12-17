@@ -3,6 +3,10 @@
     "branch": "master",
     "commit": "0236521ea582747b58869cb72f70ccfa967d2e89"
   },
+  "LazyVim": {
+    "branch": "main",
+    "commit": "879e29504d43e9f178d967ecc34d482f902e5a91"
+  },
   "LuaSnip": {
     "branch": "master",
     "commit": "480b032f6708573334f4437d3f83307d143f1a72"
