@@ -163,6 +163,10 @@
     "branch": "master",
     "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b"
   },
+  "quickfix-reflector.vim": {
+    "branch": "master",
+    "commit": "6a6a9e28e1713b9e9db99eec1e6672e5666c01b9"
+  },
   "telescope-fzf-native.nvim": {
     "branch": "main",
     "commit": "6c921ca12321edaa773e324ef64ea301a1d0da62"
