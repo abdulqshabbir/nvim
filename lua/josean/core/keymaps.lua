@@ -35,9 +35,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 -- vim maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
--- nvim-tree
-keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>") -- toggle split window maximization
-
 -- Toggle Terminal
 keymap.set("n", "<leader>tn", "<cmd>ToggleTerm<cr>")
 keymap.set("n", "<leader>tt", "<cmd>ToggleTermToggleAll<cr>")
