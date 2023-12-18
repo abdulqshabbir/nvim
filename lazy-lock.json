@@ -79,6 +79,10 @@
     "branch": "main",
     "commit": "b6ae80f8fc9993638608fc1a51c6ab0eeb12618c"
   },
+  "lsp-progress.nvim": {
+    "branch": "main",
+    "commit": "cabf7fde50cc0dad367a03a1542d9670d1118bd0"
+  },
   "lspkind.nvim": {
     "branch": "master",
     "commit": "57610d5ab560c073c465d6faf0c19f200cb67e6e"
@@ -178,10 +182,6 @@
   "telescope.nvim": {
     "branch": "0.1.x",
     "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a"
-  },
-  "toggleterm.nvim": {
-    "branch": "main",
-    "commit": "faee9d60428afc7857e0927fdc18daa6c409fa64"
   },
   "vim-ReplaceWithRegister": {
     "branch": "master",
