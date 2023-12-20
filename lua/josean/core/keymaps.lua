@@ -13,6 +13,8 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "<leader>es", ":nohl<CR>", { desc = "Clear search highlights" })
 keymap.set("n", "j", "jzz", { desc = "Down and center" })
 keymap.set("n", "k", "kzz", { desc = "Up and center" })
+keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Up fast and center" })
+keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Down fast and center" })
 
 -- window management
 keymap.set("n", "<leader>qq", "<cmd>q<CR>", { desc = "Quit current window" })
