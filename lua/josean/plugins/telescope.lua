@@ -27,6 +27,10 @@ return {
 						["<C-k>"] = actions.move_selection_previous, -- move to prev result
 						["<C-j>"] = actions.move_selection_next, -- move to next result
 						["<C-qf>"] = actions.send_selected_to_qflist + actions.open_qflist,
+						["<CR>"] = require("telescope.actions").select_default + require("telescope.actions").center,
+					},
+					n = {
+						["<CR>"] = require("telescope.actions").select_default + require("telescope.actions").center,
 					},
 				},
 			},
