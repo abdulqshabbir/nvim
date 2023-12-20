@@ -11,8 +11,6 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 -- clear search highlights
 keymap.set("n", "<leader>es", ":nohl<CR>", { desc = "Clear search highlights" })
-keymap.set("n", "j", "jzz", { desc = "Down and center" })
-keymap.set("n", "k", "kzz", { desc = "Up and center" })
 keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Up fast and center" })
 keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Down fast and center" })
 
@@ -26,6 +24,7 @@ keymap.set("n", "<leader>sj", "<C-w>-") -- make split window height shorter
 keymap.set("n", "<leader>sk", "<C-w>+") -- make split windows height taller
 keymap.set("n", "<leader>sh", "<C-w>>5") -- make split windows width bigger
 keymap.set("n", "<leader>sl", "<C-w><5") -- make split windows width smaller
+keymap.set("n", ";", "<cmd>close<CR>", { desc = "Close pane" })
 
 -- vim maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
@@ -40,9 +39,9 @@ keymap.set("n", "<leader>gp", "[c") -- previous diff hunk
 
 -- Quickfix keymaps
 keymap.set("n", "<leader>qn", ":cnext<CR>") -- jump to next quickfix list item
-keymap.set("n", "<C-n>", ":cnext<CR>") -- jump to next quickfix list item
+keymap.set("n", "<C-n>", ":cnext<CR>zz") -- jump to next quickfix list item
 keymap.set("n", "<leader>qp", ":cprev<CR>") -- jump to prev quickfix list item
-keymap.set("n", "<C-p>", ":cprev<CR>") -- jump to prev quickfix list item
+keymap.set("n", "<C-p>", ":cprev<CR>zz") -- jump to prev quickfix list item
 
 -- Telescope import
 keymap.set("n", "<leader>fi", "<cmd>Telescope import<cr>")
