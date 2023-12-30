@@ -5,6 +5,20 @@ local keymap = vim.keymap -- for conciseness
 
 ---------------------
 -- General Keymaps -------------------
+-- centering on jumps
+keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
+keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
+keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
+keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+keymap.set("n", "J", "mzJ`z")
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+keymap.set("n", "n", "nzzzv")
+keymap.set("n", "N", "Nzzzv")
+
+-- move lines up and down
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
@@ -24,7 +38,12 @@ keymap.set("n", "<leader>sj", "<C-w>-") -- make split window height shorter
 keymap.set("n", "<leader>sk", "<C-w>+") -- make split windows height taller
 keymap.set("n", "<leader>sh", "<C-w>>5") -- make split windows width bigger
 keymap.set("n", "<leader>sl", "<C-w><5") -- make split windows width smaller
-keymap.set("n", ";", "<cmd>close<CR>", { desc = "Close pane" })
+keymap.set("n", ";;", "<cmd>close<CR>", { desc = "Close pane" })
+
+-- generzal saving/closing keymaps
+keymap.set("n", ";j", "<cmd>w<CR>", { desc = "Close pane" })
+keymap.set("n", ";a", "<cmd>wa<CR>", { desc = "Close pane" })
+keymap.set("n", ";q", "<cmd>wqa<CR>", { desc = "Close pane" })
 
 -- vim maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization

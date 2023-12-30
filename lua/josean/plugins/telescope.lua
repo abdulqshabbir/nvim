@@ -28,6 +28,8 @@ return {
 						["<C-j>"] = actions.move_selection_next, -- move to next result
 						["<C-qf>"] = actions.send_selected_to_qflist + actions.open_qflist,
 						["<CR>"] = require("telescope.actions").select_default + require("telescope.actions").center,
+						["<C-qf"] = require("telescope.actions").smart_send_to_qflist
+							+ require("telescope.actions").open_qflist,
 					},
 					n = {
 						["<CR>"] = require("telescope.actions").select_default + require("telescope.actions").center,
